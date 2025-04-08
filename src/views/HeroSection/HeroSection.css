@@ -1,0 +1,276 @@
+/* BORDERS */
+
+/* .hero-header {
+  border: 4px solid yellow;
+}
+
+.header-container {
+  border: 4px solid pink;
+}
+
+.hero-content {
+  border: 4px solid green;
+}
+
+.image-container {
+  border: 4px solid red;
+}
+
+.hero-image {
+  border: 4px solid blue;
+}
+
+.text-container {
+  border: 4px solid red;
+}
+
+.hero-title {
+  border: 4px solid orange;
+}
+
+.hero-description {
+  border: 4px solid purple;
+}
+
+.hero-subtitle {
+    border: 4px solid brown;
+}
+
+.hero-subtitle::before {
+    border: 4px solid black;
+}
+*/
+
+/*  */
+
+.hero-container {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: #f9f9f9;
+  color: #20201f;
+}
+
+.header-title {
+  display: none;
+}
+
+.hero-header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 10%;
+
+  background-color: #6c8ac6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: 4px solid #20201f;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+}
+
+.hero-image {
+  box-sizing: border-box;
+  width: 95%;
+  height: auto;
+  object-fit: contain;
+  mask-image: linear-gradient(black 80%, transparent 100%);
+}
+
+.text-container {
+  position: relative;
+  padding-bottom: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  margin: 0;
+  padding: 0 1em;
+
+  font-family: "Playfair Display";
+  font-weight: 500;
+  font-size: 2.3em;
+
+  transition: all 0.1s ease-in-out;
+}
+
+.hero-description {
+  margin: 0;
+  padding: 1em;
+
+  font-family: "Lato";
+  font-size: 1.18em;
+}
+
+.text-container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 1em 0;
+  position: absolute;
+  bottom: 0;
+
+  border-radius: 10px;
+}
+
+/* TABLET */
+@media (min-width: 600px) {
+  .hero-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .text-container {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    gap: 0.5em;
+  }
+
+  .image-container {
+    width: 50%;
+    justify-content: flex-end;
+    align-self: stretch;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 462px;
+  }
+
+  .hero-title {
+    font-style: italic;
+    font-size: 2.5em;
+
+    padding: 0;
+  }
+
+  .text-container img {
+    display: none;
+  }
+}
+
+/* DESKTOP */
+
+@media (min-width: 1200px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .header-title {
+    display: flex;
+
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    font-weight: 700;
+    text-align: right;
+
+    color: #f9f9f9;
+    cursor: pointer;
+
+    padding: 0 1em;
+    margin-left: 0.75em;
+  }
+
+  .hero-header {
+    width: 100%;
+    height: 15%;
+    padding: 0 1em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 95%;
+    height: 85%;
+  }
+
+  /* IMAGE */
+
+  .image-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+  }
+
+  .hero-image {
+    width: 95%;
+    max-width: 410px;
+    height: auto;
+    object-position: bottom;
+    transform-origin: right;
+    transform: scale(1.15, 1.15);
+  }
+
+  /* TEXT */
+
+  .text-container {
+    box-sizing: border-box;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+
+    width: 50%;
+  }
+
+  .hero-title {
+    min-width: 300px;
+    padding: 0 20px 0 0;
+
+    font-size: 3.7em;
+    text-align: left;
+  }
+
+  .hero-description {
+    width: 85%;
+    min-width: 320px;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+    text-align: left;
+  }
+}

@@ -1,0 +1,144 @@
+.mv-section {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background: linear-gradient(to bottom, #d7e3f4 50%, #20201f 50%);
+
+  margin-top: 25px;
+}
+
+.mv-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 90vh;
+  width: 100%;
+  padding: 1em;
+  margin: 30px;
+  z-index: 100;
+
+  overflow: hidden;
+}
+
+.mv-content > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mv-container h3 {
+  font-family: "Roboto slab";
+  font-size: 2.75em;
+
+  padding: 0 1em;
+  margin: 0;
+}
+
+.mv-container p {
+  font-family: "Lato";
+  font-size: 1.2em;
+
+  max-width: 400px;
+  padding: 0.5em 1em;
+  margin: 0;
+}
+
+.m-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+  flex: 1;
+
+  width: 100%;
+}
+
+.m-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 75%;
+}
+
+.m-photo {
+  width: 25%;
+}
+
+.m-photo img {
+  width: 100%;
+  height: auto;
+}
+
+.m-title {
+  color: #20201f;
+  text-align: left;
+}
+
+.m-description {
+  color: #20201f;
+  text-align: left;
+}
+
+.v-container {
+  background-color: #20201f;
+  align-self: flex-end;
+  flex: 1;
+
+  width: 100%;
+}
+
+.v-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: flex-end;
+
+  width: 75%;
+}
+
+.v-title {
+  color: #d7e3f4;
+  text-align: right;
+}
+
+.v-description {
+  color: #d7e3f4;
+  text-align: right;
+  justify-self: flex-end;
+}
+
+/* TABLET */
+@media (min-width: 600px) and (max-width: 1200px) {
+  .mv-container h3 {
+    font-size: 3.25em;
+
+    padding: 0 1em;
+    margin: 0;
+  }
+
+  .mv-container p {
+    font-size: 1.4em;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1200px) {
+  .mv-container h3 {
+    font-size: 4em;
+  }
+
+  .mv-container p {
+    font-size: 1.6em;
+  }
+}
