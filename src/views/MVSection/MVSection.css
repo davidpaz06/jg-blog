@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-between;
 
-  background: linear-gradient(to bottom, #d7e3f4 50%, #20201f 50%);
+  background: linear-gradient(to bottom, #6c8ac6 50%, #d7e3f4 50%);
 
   margin-top: 25px;
 }
@@ -80,17 +80,17 @@
 }
 
 .m-title {
-  color: #20201f;
+  color: #f9f9f9;
   text-align: left;
 }
 
 .m-description {
-  color: #20201f;
+  color: #f9f9f9;
   text-align: left;
 }
 
 .v-container {
-  background-color: #20201f;
+  background-color: #dde3f4;
   align-self: flex-end;
   flex: 1;
 
@@ -108,12 +108,12 @@
 }
 
 .v-title {
-  color: #d7e3f4;
+  color: #20201f;
   text-align: right;
 }
 
 .v-description {
-  color: #d7e3f4;
+  color: #20201f;
   text-align: right;
   justify-self: flex-end;
 }

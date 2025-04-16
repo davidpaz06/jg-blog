@@ -9,7 +9,7 @@
   width: 100%;
   min-height: 100vh;
 
-  background-color: #20201f;
+  background-color: #dde3f4;
   color: #20201f;
 
   font-family: "Lato";
@@ -32,7 +32,11 @@
   max-width: 900px;
 
   background-color: #f9f9f9;
-  /* border: 4px solid red; */
+  /* border-radius: 8px;
+  border: 2px solid #20201f;
+  border-right: 4px solid #20201f;
+  border-bottom: 4px solid #20201f; */
+  color: #20201f;
 }
 
 .cta-title {
@@ -42,10 +46,10 @@
   flex: 1;
 
   margin: 0.5em 0.5em;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
 
   font-size: 3.5em;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto slab", serif;
   text-align: center;
 }
 
@@ -79,18 +83,13 @@
 .cta-description {
   font-size: 1.1em;
   text-align: center;
-  color: #20201f;
 
-  padding: 0 1em;
+  padding: 0 2em;
 }
 
 /* DESKTOP */
 
 @media (min-width: 1200px) {
-  .cta-container {
-    background-color: #20201f;
-  }
-
   .cta-content {
     width: 80%;
     max-width: 900px;
