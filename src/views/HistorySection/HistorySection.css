@@ -23,14 +23,25 @@
   margin-bottom: 0.5em;
 }
 
+.history-subtitle {
+  font-size: 1.5em;
+  font-family: "Roboto slab";
+  color: #20201f;
+  text-align: left;
+  align-self: flex-start;
+  margin: 1em;
+}
+
 .history-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
   width: 75%;
   max-width: 500px;
+  max-height: 600px;
+  overflow: auto;
   padding: 2em;
 
   background-color: #f9f9f9;
@@ -41,10 +52,10 @@
 }
 
 .history-text {
-  font-size: 1.1em;
+  font-size: 1em;
   color: #20201f;
-  text-align: center;
-  margin-bottom: 1em;
+  text-align: left;
+  margin: 0 1.5em;
   font-family: "Lato";
 }
 

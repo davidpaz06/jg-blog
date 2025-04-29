@@ -27,7 +27,10 @@ const CTA: FC<CTAProps> = ({ isEnglish }) => {
         <h2 className="cta-title">
           {isEnglish ? text[1].titleEnglish : text[0].titleSpanish}
         </h2>
-        <a href="https://www.youtube.com" className="cta-button">
+        <a
+          href="https://www.addforwellness.org/Home/Total"
+          className="cta-button"
+        >
           {isEnglish ? text[1].buttonEnglish : text[0].buttonSpanish}
         </a>
         <p className="cta-description">
