@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC } from "react";
 import "./Header.css";
 
 interface Tab {
@@ -24,10 +24,8 @@ interface HeaderProps {
 }
 
 const Header: FC<HeaderProps> = ({ isEnglish = false }) => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
   return (
-    <div className={`header-container ${isScrolled ? "scrolled" : ""}`}>
+    <div className={`header-container `}>
       {headerTabs.map((tab) => (
         <button
           key={tab.href}
