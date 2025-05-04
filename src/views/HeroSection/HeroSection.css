@@ -80,7 +80,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  top: 50px;
+  top: 30px;
   right: 0;
   margin: 1em;
   padding: 0.1em;
@@ -160,7 +160,7 @@
 
 .hero-description {
   margin: 0;
-  padding: 1em 2em;
+  padding: 0.5em 2em;
 
   font-family: "Lato";
   font-size: 1.18em;
@@ -168,7 +168,7 @@
 
 .text-container img {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   height: auto;
   margin: 1em 0;
   position: absolute;
@@ -264,7 +264,7 @@
 
 .campaign-container img {
   width: 100%;
-  max-width: 350px;
+  max-width: 275px;
   align-self: center;
   height: auto;
   margin: 1em 0;
