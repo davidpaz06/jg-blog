@@ -21,7 +21,7 @@ const text = [
       "Inspire people to move and pay tribute to the life of Juan Gómez, adding kilometers from anywhere in the world.",
     visionTitleEnglish: "Vision",
     visionDescriptionEnglish:
-      "Form a community united by sport, love and memory, keeping his example alive through movement and solidarity.",
+      "To form a community united by sport, love, and memory for the prevention of cardiovascular diseases through movement and solidarity.",
   },
 ];
 
