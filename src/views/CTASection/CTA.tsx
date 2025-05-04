@@ -8,13 +8,13 @@ interface CTAProps {
 const text = [
   {
     titleSpanish: "¿Estás listo para unirte?",
-    buttonSpanish: "Súmate aquí",
+    buttonSpanish: "Suma KM",
     descriptionSpanish:
       "Haz clic aquí para sumar tus kilómetros desde donde estés.",
   },
   {
     titleEnglish: "Are you ready to join?",
-    buttonEnglish: "Join here",
+    buttonEnglish: "Add KM",
     descriptionEnglish:
       "Click here to add your kilometers from wherever you are.",
   },

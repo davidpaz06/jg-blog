@@ -13,7 +13,7 @@ const text = [
       "Inspirar a las personas a moverse y rendir homenaje a la vida de Juan Gómez, sumando kilómetros desde cualquier lugar del mundo.",
     visionTitleSpanish: "Visión",
     visionDescriptionSpanish:
-      "Formar una comunidad unida por el deporte, el amor y la memoria, que mantenga vivo su ejemplo a través del movimiento y la solidaridad.",
+      "Formar una comunidad unida por el deporte, el amor y la memoria para la prenvención de enfermedades cardiovasculares a través del movimiento y la solidaridad.",
   },
   {
     missionTitleEnglish: "Mission",

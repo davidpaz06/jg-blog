@@ -35,7 +35,7 @@ const HeroSection: FC<HeroProps> = ({ isEnglish, toggleLanguage }) => {
         "Esta iniciativa nace para rendir homenaje a Juan Gómez, un apasionado del deporte y la vida. Desde cualquier lugar del mundo, puedes sumar kilómetros en su memoria y ser parte de este legado que sigue avanzando.",
       campaignTitleSpanish: "¿Qué es Suma KM por Juan Gómez?",
       campaignSpanish:
-        "Esta es una campaña de bienestar que iniciamos en el 2016 en memoria de mi difunto esposo, Juan, quien falleció de un ataque cardíaco a la edad de 41 años. Juan tenía hiperlipidemia familiar y niveles elevados de Lipoproteina(a) #lpa, un factor de riesgo independiente para la enfermedades cardiovasculares, independientemente de los niveles de colesterol.",
+        "Esta es una campaña de bienestar que iniciamos en el 2016 en memoria de Juan, quien falleció de un ataque cardíaco a la edad de 41 años. Juan tenía hiperlipidemia familiar y niveles elevados de Lipoproteina(a) #lpa, un factor de riesgo para la enfermedades cardiovasculares, independientemente de los niveles de colesterol.",
     },
     {
       titleEnglish: "Add KM for Juan Gómez",
@@ -44,7 +44,7 @@ const HeroSection: FC<HeroProps> = ({ isEnglish, toggleLanguage }) => {
         "This initiative was born to pay tribute to Juan Gómez, a passionate about sports and life. From anywhere in the world, you can add kilometers in his memory and be part of this legacy that continues to move forward.",
       campaignTitleEnglish: "What is Add KM for Juan Gómez?",
       campaignEnglish:
-        "This is a wellness campaign that we started in 2016  in memory of my late husband, Juan, who passed away from a heart attack at the age of 41.  Juan had familial hyperlipidemia and elevated levels of Lipoprotein(a) #lpa an independent risk factor for cardiovascular diseases, regardless of cholesterol levels.",
+        "This is a wellness campaign that we started in 2016  in memory of Juan, who passed away from a heart attack at the age of 41.  Juan had familial hyperlipidemia and elevated levels of Lipoprotein(a) #lpa an independent risk factor for cardiovascular diseases, regardless of cholesterol levels.",
     },
   ];
 

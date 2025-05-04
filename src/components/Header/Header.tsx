@@ -16,7 +16,7 @@ const headerTabs: Tab[] = [
     href: "mv-section",
   },
   { nameSpanish: "Historia", nameEnglish: "History", href: "history-section" },
-  { nameSpanish: "Suma KM", nameEnglish: "Add KM", href: "cta-section" },
+  { nameSpanish: "Suma", nameEnglish: "Add", href: "cta-section" },
 ];
 
 interface HeaderProps {
