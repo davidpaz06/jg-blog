@@ -7,16 +7,18 @@ interface CTAProps {
 
 const text = [
   {
-    titleSpanish: "¿Estás listo para unirte?",
+    titleSpanish: "¿Estás listo para sumar KM este año?",
+    subtitleSpanish:
+      "A partir del 01 de agosto, comienza la cuenta de los KM con una meta de 10.000 KM",
     buttonSpanish: "Suma KM",
-    descriptionSpanish:
-      "Haz clic aquí para sumar tus kilómetros desde donde estés.",
+    descriptionSpanish: "En este enlace puedes registrar tus KM sumados.",
   },
   {
-    titleEnglish: "Are you ready to join?",
+    titleEnglish: "Ready to add KM this year?",
+    subtitleEnglish:
+      "Starting from August 1st, the KM count begins with a goal of 10,000 KM",
     buttonEnglish: "Add KM",
-    descriptionEnglish:
-      "Click here to add your kilometers from wherever you are.",
+    descriptionEnglish: "You can register your added KM at this link.",
   },
 ];
 
@@ -27,6 +29,9 @@ const CTA: FC<CTAProps> = ({ isEnglish }) => {
         <h2 className="cta-title">
           {isEnglish ? text[1].titleEnglish : text[0].titleSpanish}
         </h2>
+        <p className="cta-subtitle">
+          {isEnglish ? text[1].subtitleEnglish : text[0].subtitleSpanish}
+        </p>
         <a
           href="https://www.addforwellness.org/Home/Total"
           className="cta-button"

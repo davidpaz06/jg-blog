@@ -45,11 +45,17 @@
   align-items: center;
   flex: 1;
 
-  margin: 0.5em 0.5em;
-  margin-bottom: 0em;
+  margin: 0.5em 0.5em 0.1em 0.5em;
 
   font-size: 3.5em;
   font-family: "Roboto slab", serif;
+  text-align: center;
+  line-height: 1;
+}
+
+.cta-subtitle {
+  font-size: 1.1em;
+  font-family: "Lato", sans-serif;
   text-align: center;
 }
 
@@ -97,6 +103,10 @@
 
   .cta-title {
     font-size: 4.5em;
+  }
+
+  .cta-subtitle {
+    font-size: 1.5em;
   }
 
   .cta-button {
