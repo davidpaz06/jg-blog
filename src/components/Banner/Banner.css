@@ -1,0 +1,36 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff5b5ff;
+  margin-bottom: 2em;
+}
+
+.banner h1 {
+  text-align: center;
+  margin: 0em 0;
+  color: #333;
+}
+
+.banner p {
+  text-align: center;
+  margin: 0.5em 0;
+  color: #666;
+}
+
+.banner button {
+  padding: 0.5em 1em;
+  background-color: #6c8ac6;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 1em 0;
+}
+
+.banner button:hover {
+  background-color: #5a7ab0;
+}

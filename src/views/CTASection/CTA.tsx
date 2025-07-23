@@ -1,5 +1,6 @@
 import { FC } from "react";
 import "./CTA.css";
+import Banner from "../../components/Banner/Banner";
 
 interface CTAProps {
   isEnglish?: boolean;
@@ -24,25 +25,30 @@ const text = [
 
 const CTA: FC<CTAProps> = ({ isEnglish }) => {
   return (
-    <section id="cta-section" className="cta-container">
-      <div className="cta-content">
-        <h2 className="cta-title">
-          {isEnglish ? text[1].titleEnglish : text[0].titleSpanish}
-        </h2>
-        <p className="cta-subtitle">
-          {isEnglish ? text[1].subtitleEnglish : text[0].subtitleSpanish}
-        </p>
-        <a
-          href="https://www.addforwellness.org/Home/Total"
-          className="cta-button"
-        >
-          {isEnglish ? text[1].buttonEnglish : text[0].buttonSpanish}
-        </a>
-        <p className="cta-description">
-          {isEnglish ? text[1].descriptionEnglish : text[0].descriptionSpanish}
-        </p>
-      </div>
-    </section>
+    <>
+      <Banner />
+      <section id="cta-section" className="cta-container">
+        <div className="cta-content">
+          <h2 className="cta-title">
+            {isEnglish ? text[1].titleEnglish : text[0].titleSpanish}
+          </h2>
+          <p className="cta-subtitle">
+            {isEnglish ? text[1].subtitleEnglish : text[0].subtitleSpanish}
+          </p>
+          <a
+            href="https://www.addforwellness.org/Home/Total"
+            className="cta-button"
+          >
+            {isEnglish ? text[1].buttonEnglish : text[0].buttonSpanish}
+          </a>
+          <p className="cta-description">
+            {isEnglish
+              ? text[1].descriptionEnglish
+              : text[0].descriptionSpanish}
+          </p>
+        </div>
+      </section>
+    </>
   );
 };
 

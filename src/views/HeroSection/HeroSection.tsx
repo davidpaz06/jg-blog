@@ -2,6 +2,7 @@ import { FC, useState } from "react";
 
 import "./HeroSection.css";
 import Header from "../../components/Header/Header";
+import Banner from "../../components/Banner/Banner";
 import heroImage from "../../assets/img/juan.png";
 import img from "../../assets/img/juan-photo-two.jpg";
 import imgTwo from "../../assets/img/jg.jpg";
@@ -57,6 +58,7 @@ const HeroSection: FC<HeroProps> = ({ isEnglish, toggleLanguage }) => {
         <Header isEnglish={isEnglish} />
       </div>
 
+      <Banner />
       <div className="lang-button" onClick={toggleLanguage}>
         <span className="lang-button-icon">
           <MdOutlineTranslate
