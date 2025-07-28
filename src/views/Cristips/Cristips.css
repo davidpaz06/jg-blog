@@ -1,0 +1,50 @@
+.cristips-container {
+  padding: 20px;
+  background-color: #20201f;
+  color: #dde3f4;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cristips-container h2 {
+  font-size: 1.25em;
+  max-width: 400px;
+  text-align: center;
+}
+
+.cristips-container a {
+  color: #d7e3f4;
+  background-color: #20201f;
+  border: 2px solid #d7e3f4;
+  border-bottom: 4px solid #d7e3f4;
+  border-right: 4px solid #d7e3f4;
+  border-radius: 5px;
+  cursor: pointer;
+
+  text-decoration: none;
+  font-weight: bold;
+  width: 250px;
+  padding: 0.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 1.8em;
+
+  font-family: "Roboto slab", sans-serif;
+
+  transition: all 0.25s ease-in-out;
+}
+
+.cristips-container a:hover {
+  background-color: #d7e3f4;
+  color: #20201f;
+  border-radius: 20px;
+}
+
+#ig {
+  font-size: 1.5em;
+}

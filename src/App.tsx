@@ -4,6 +4,7 @@ import MVSection from "./views/MVSection/MVSection";
 import HistorySection from "./views/HistorySection/HistorySection";
 import CTA from "./views/CTASection/CTA";
 import HowTo from "./views/HowTo/HowTo";
+import Cristips from "./views/Cristips/Cristips";
 import "./App.css";
 
 const App: FC = () => {
@@ -19,6 +20,7 @@ const App: FC = () => {
       <HowTo />
       <HistorySection isEnglish={isEnglish} />
       <CTA isEnglish={isEnglish} />
+      <Cristips />
     </>
   );
 };
