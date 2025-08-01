@@ -2,7 +2,22 @@ import type { FC } from "react";
 import "./Cristips.css";
 import { FaInstagram } from "react-icons/fa";
 
-const Cristips: FC = () => {
+interface CristipsProps {
+  isEnglish?: boolean;
+}
+
+const text = [
+  {
+    titleSpanish:
+      "Conoce tips prácticos para mejorar tu salud física, mental y emocional, escritos por nuestra colaboradora",
+  },
+  {
+    titleEnglish:
+      "Discover practical tips to improve your physical, mental, and emotional health, written by our collaborator",
+  },
+];
+
+const Cristips: FC<CristipsProps> = ({ isEnglish }) => {
   return (
     <div className="cristips-container">
       <a
@@ -13,11 +28,7 @@ const Cristips: FC = () => {
         <FaInstagram id="ig" /> @dr.cristips
       </a>
 
-      <h2>
-        {" "}
-        Conoce tips prácticos para mejorar tu salud física, mental y emocional,
-        escritos por nuestra colaboradora{" "}
-      </h2>
+      <h2> {isEnglish ? text[1].titleEnglish : text[0].titleSpanish} </h2>
     </div>
   );
 };

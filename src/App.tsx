@@ -17,10 +17,10 @@ const App: FC = () => {
     <>
       <HeroSection isEnglish={isEnglish} toggleLanguage={toggleLanguage} />
       <MVSection isEnglish={isEnglish} />
-      <HowTo />
+      <HowTo isEnglish={isEnglish} />
       <HistorySection isEnglish={isEnglish} />
       <CTA isEnglish={isEnglish} />
-      <Cristips />
+      <Cristips isEnglish={isEnglish} />
     </>
   );
 };
